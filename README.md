@@ -41,6 +41,7 @@ Pokedex-Typescript/
 │   ├── tsconfig.json
 │   └── README.md
 └── README.md
+``` 
 
 ## Como Executar o Projeto
 
