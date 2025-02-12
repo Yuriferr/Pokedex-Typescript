@@ -1,0 +1,194 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 300px;
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  position: relative;
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid #333;
+  margin: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+  background-color: #1e1e1e;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokedex-number {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.types span {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.water {
+  background-color: #6890F0;
+}
+
+.fire {
+  background-color: #F08030;
+}
+
+.grass {
+  background-color: #78C850;
+}
+
+.normal {
+  background-color: #A8A878;
+}
+
+.electric {
+  background-color: #F8D030;
+}
+
+.ice {
+  background-color: #98D8D8;
+}
+
+.fighting {
+  background-color: #C03028;
+}
+
+.poison {
+  background-color: #A040A0;
+}
+
+.ground {
+  background-color: #E0C068;
+}
+
+.flying {
+  background-color: #A890F0;
+}
+
+.psychic {
+  background-color: #F85888;
+}
+
+.bug {
+  background-color: #A8B820;
+}
+
+.rock {
+  background-color: #B8A038;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.dragon {
+  background-color: #7038F8;
+}
+
+.steel {
+  background-color: #B8B8D0;
+}
+
+.fairy {
+  background-color: #EE99AC;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  li {
+    width: 100%;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .search-bar {
+    flex-direction: column;
+  }
+  .search-bar input {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .pagination {
+    flex-direction: column;
+  }
+}
